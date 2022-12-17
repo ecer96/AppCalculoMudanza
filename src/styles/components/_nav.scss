@@ -1,0 +1,35 @@
+@import './variables';
+
+.contenedor-navegador{
+    background-color: #FD9255;
+    width: 1920px;
+    height: 196px;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: capitalize;
+
+
+    .contenedor-enlaces{
+        a{
+            text-decoration: none;
+            color: $blancoEnlaces;
+            font-weight: 400;
+            size: 18px;
+            line-height: 30px;
+            padding: 84px 83px;
+        }
+    }
+
+    .icono-casa{
+        a{
+            img{
+                height: 88.36px;
+                filter: invert(1);
+            }
+        }
+    }
+  
+}
