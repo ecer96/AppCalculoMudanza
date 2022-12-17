@@ -1,0 +1,22 @@
+@import './variables';
+
+.contenedor-titulo{
+   margin-top: 181px;
+   margin-bottom: 125px;
+   
+    h1{
+        font-weight: 400;
+        size: 48px;
+        line-height: 50px;
+        text-align: center;
+        font-size:  3rem;
+    }
+    p{
+        font-weight: 400;
+        font-style: normal;
+        font-size: 17px;
+        line-height: 30px;
+        text-align: center;
+        color: $grisParrafo;
+    }
+}
