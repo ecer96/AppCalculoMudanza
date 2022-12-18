@@ -1,0 +1,57 @@
+.contenedor-cards{
+  
+     display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    display: grid;
+    
+
+
+    .cards{
+
+        margin-bottom: 50px;
+        margin-top: 100px;
+
+        .imagen-logo{
+            display: flex;
+            justify-content: center;
+            height: 56px;
+            
+        }
+        
+        .titulo-card{
+            text-align: center;
+            font-weight: 300;
+            font-size: 21px;
+            display: contents;
+
+            p{
+                margin-top: 15px;
+                margin-bottom: 60px;
+            }
+            
+         }
+
+         .boton-plus,.boton-minus{
+            height: 30px;
+            width: 30px;
+            border: none;
+            cursor: pointer;
+        
+
+            img{
+                height: 30px;
+                width: 30px;
+            }
+         }
+
+
+
+         .contenedor-boton {
+            display: flex;
+            align-items: center;
+            flex-direction: row-reverse;
+            justify-content: center;
+            gap: 3em;
+        }
+    }
+}

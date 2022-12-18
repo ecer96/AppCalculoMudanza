@@ -1,0 +1,29 @@
+@import './variables';
+
+.btn-Cls{
+    display: flex;
+    justify-content: space-between;
+    
+
+    .clear{
+        background-color: $blancoEnlaces;
+        margin-left: 50px;
+    
+    }
+
+
+    .calculate{
+        background-color: $naranja;
+        margin-right: 50px;
+   
+    }
+
+    .btn{
+        border: none;
+        height: 61px;
+        width:200px ;
+        cursor: pointer;
+        margin-top: 69px;
+    
+    }
+}
